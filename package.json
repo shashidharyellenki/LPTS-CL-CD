@@ -2,7 +2,7 @@
   "name": "lpts-cl-cd",
   "version": "1.0.0",
   "description": "",
-  "main": "directorypage.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "parcel build index.html",
