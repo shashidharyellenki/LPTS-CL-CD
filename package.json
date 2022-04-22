@@ -2,7 +2,7 @@
   "name": "lpts-cl-cd",
   "version": "1.0.0",
   "description": "",
-  "main": "PreviewForm.js",
+  "main": "directorypage.js",
   "scripts": {
     "test": "jest",
     "build": "parcel build index.html",
