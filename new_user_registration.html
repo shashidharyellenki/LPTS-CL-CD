@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dccac0ae86.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <style>
+       body{
+        background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+            /* background: linear-gradient(109.6deg, rgb(180, 214, 242) 11.2%, rgba(72, 67, 221, 0.72) 100.2%); */
+            box-sizing: border-box;
+            margin:0;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            min-height: 800px;
+            
+       }
+       .form-box{
+        padding:20px;
+        max-width:100%;
+        height:auto;
+        background-color: #fff;
+        box-shadow: 3px 3px 3px rgb(0,0,0,0.5);
+        border-radius: 10px;
+       }
+       h1{
+           margin-bottom:0px;
+        }
+        .p{
+           font-size:20px;
+           margin-top: 2px;
+       }
+       .form-btns{
+           padding:8px 8px;
+           background-color:#f5f5f5;
+           display: flex;
+           flex-wrap: wrap;
+           align-items: center;
+           justify-content: space-evenly;
+           width:100%;
+       }
+       .Btns{
+           background: transparent;
+           outline:none;
+           border:none;
+           cursor: pointer;
+           font-size:1rem;
+       }
+       .form-content{
+           margin:10px;
+       
+           }
+           textarea{
+               resize: none;
+           }
+           label{
+               font-weight: bold;
+           }
+           span{
+               color:red;
+           }
+           .container{
+            padding:10px;
+
+           }
+        .btn{
+            border-radius: 25px;
+            margin:0 4px;
+            font-size: 14px;
+            }
+        .bt{
+            padding-bottom: 20px;
+            
+        }
+
+        #btn1{
+            background-color: #e3e3e3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="form-box">
+    <h2><i class="fa-solid fa-user-group fa-1x"></i> New Learner Registration</h2>
+    <p>Let's create your account</p>
+    <div  class="nav nav-tabs form-btns" id="nav-tab" role="tablist">
+        <button class=" Btns nav-link active" id="nav-personal-Details-tab" data-bs-toggle="tab" data-bs-target="#nav-personal" type="button" role="tab" aria-controls="nav-personal-Details" aria-selected="true">Personal Details</button>
+        <button class=" Btns nav-link" id="nav-Acadamic-Details-tab" data-bs-toggle="tab" data-bs-target="#nav-Acadamic" type="button" role="tab" aria-controls="nav-Acadamic-Details" aria-selected="true">Academic Details</button>
+        <button class=" Btns nav-link" id="nav-Social-Handles-tab" data-bs-toggle="tab" data-bs-target="#nav-social" type="button" role="tab" aria-controls="nav-Social-Handles" aria-selected="true">Social Handles</button>
+        <button class=" Btns nav-link" id="nav-Work-Experience-tab" data-bs-toggle="tab" data-bs-target="#nav-Work" type="button" role="tab" aria-controls="nav-Work-Experience" aria-selected="true">Work Experience</button>
+        <button class=" Btns nav-link" id="nav-Work-submit-tab" data-bs-toggle="tab" data-bs-target="#nav-submit" type="button" role="tab" aria-controls="nav-submit" aria-selected="true">Preview</button>
+    </div>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-personal" role="tabpanel" aria-labelledby="nav-personal-Details-tab">
+            <div class="form-content">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <label class="form-label">First Name<span>*</span></label>
+                            <input type="text"class="form-control" name="" id="Fname" placeholder="Enter your First Name">
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
+                            <label class="form-label">Last Name<span>*</span></label>
+                            <input type="text"class="form-control" name="" id="Lname" placeholder="Enter your last Name">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6 col-sm-12">
+                            <label class="form-label">Email<span>*</span></label>
+                            <input type="email" name="" id="Email" placeholder="Enter your Email" class="form-control">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label class="form-label">Profile Photo<span>*</span></label>
+                            <input type="file" class="form-control"name="" id="">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-12 col-sm-12">
+                            <label class="form-label">A Short Bio<span>*</span></label>
+                            <textarea id="textarea-Bio"class="form-control" placeholder="A short Bio (not more than 30 words)" ></textarea>
+
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-12 col-sm-12">
+                            <label class="form-label">Tags<span>*</span></label>
+                            <textarea id="textarea-Tag"class="form-control" placeholder="Eg: Data Science"></textarea>
+                        </div>
+                    </div><br>
+                    <div class="bt">
+                    <button type="button" class="btn btn-primary"  style="float:right" onclick="changetab()">Next</button>
+                    </div>
+                    <!-- <div  class="nav nav-tabs form-btns" id="nav-tab" role="tablist"></div>
+                    <button class=" btn btn-primary Btns nav-link" id="nav-Acadamic-Details-tab" data-bs-toggle="tab" data-bs-target="#nav-Acadamic" type="button" role="tab" aria-controls="nav-Acadamic-Details" aria-selected="true" type="button">Acadamic Details</button>
+                </div> -->
+                </form>
+
+            </div>
+        </div>
+
+
+
+<!-- Ace -->
+
+
+            <div class="tab-pane fade" id="nav-Acadamic" role="tabpanel" aria-labelledby="nav-Acadamic-Details-tab">
+                <div class="form-content">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">School Name<span>*</span></label>
+                                <input type="text"class="form-control" name="" id="school" placeholder="school name">
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Board<span>*</span></label>
+                                <input type="text"class="form-control" name="" id="Board" placeholder="Ex:SSC,CBSE">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6 col-sm-12">
+                                <label class="form-label">Graduation<span>*</span></label>
+                                <input type="text" name="" id="Graduation" placeholder="Ex:B-tech,BSC" class="form-control">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Graduation University<span>*</span></label>
+                                <input type="text" name="" id="Graduation-university" placeholder="College Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Post Graduation<span>*</span></label>
+                                <input type="text" name=""  id="postgrad" placeholder="Ex:M-tech,MSC" class="form-control">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Post Graduation University<span>*</span></label>
+                                <input type="text" name="" id="postUniversity" placeholder="college Name" class="form-control">
+                            </div>
+                        </div><br>
+                        <button type="button" class="btn btn-primary" onclick="previoustab()">Previous</button>
+                        <button type="button" class="btn btn-primary" style="float:right" onclick="nexttab()">Next</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- social handles -->
+
+
+            <div class="tab-pane fade" id="nav-social" role="tabpanel" aria-labelledby="nav-Social-Handles-tab">
+                <div class="form-content">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Linkedin<span>*</span></label>
+                                <input type="text"class="form-control" name="" id="Linkedin" placeholder="Linkedin ID">
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Github<span>*</span></label>
+                                <input type="text"class="form-control" name="Git" id="Git" placeholder="Github ID">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6 col-sm-12">
+                                <label class="form-label">Instagram<span>*</span></label>
+                                <input type="text" name="" id="Insta" placeholder="Instagram ID" class="form-control">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Facebook<span>*</span></label>
+                                <input type="text" name="" id="FB" placeholder="Facebook ID" class="form-control">
+                            </div>
+                        </div><br>
+                        <button type="button" class="btn btn-primary" onclick="previoustab1()">Previous</button>
+                        <button type="button" class="btn btn-primary" style="float:right" onclick="nexttab1()">Next</button>     
+                    </form>
+                </div>
+            </div>
+
+            <!-- Work Experiance -->
+            <div class="tab-pane fade" id="nav-Work" role="tabpanel" aria-labelledby="nav-Work-Experience-tab">
+                <div class="form-content">
+                    <form action="#" id="exp">
+                        <h3 class="pt-3">Work Experience 1</h3>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Position<span>*</span></label>
+                                <input type="text" class="form-control" name="" id="position0"  placeholder="Job role">
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">Organization<span>*</span></label>
+                                <input type="text" class="form-control" name="" id="organization0" placeholder="Company">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6 col-sm-12">
+                                <label class="form-label">From<span>*</span></label>
+                                <input type="date" name="" id="from0" class="form-control">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label class="form-label">To<span>*</span></label>
+                                <input type="date" name="" id="to0" class="form-control">
+                            </div>
+                        </div>
+                        
+                        
+                        
+                       
+                    </form>
+                    <div class="row mt-3 mr-3">
+                        <div class="col-sm-12" >
+                            <button type="button" class="btn btn-light" id="btn1" onclick="developeblock()">Add Block</button>
+                            <button type="button" class="btn btn-light" id="btn1" onclick="removeblock()">Remove Block</button>
+                        </div>
+                    </div><br>
+                    
+                </div>
+                <button type="button" class="btn btn-primary mr-4" onclick="previoustab2()">Previous</button>
+                <button type="button" class="btn btn-primary mr-4" style="float:right" onclick="nexttab2()">Next</button>
+            </div>
+
+
+            <!-- Submit -->
+            <div class="tab-pane fade" id="nav-submit" role="tabpanel" aria-labelledby="nav-submit-tab">
+                <div class="row" id="preview">    
+                </div><br>
+                <button type="button" class="btn btn-primary btn-md d-flex ms-auto mb-2" style="float:left" onclick="previoustab3()">Previous</button>
+                <button type="button" class="btn btn-primary btn-md d-flex ms-auto">Submit</button>
+            </div>
+
+
+    </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./PreviewForm.js"></script>
+<script src="./Tags_registrationform.js"></script>
+</body> 
+</html>
+
+<!-- 
+
+    <div style="border-bottom:3px solid #eee"></div>
+                    <h5><b>Work Experience</b></h5>
+                        <div class="col-sm-12 col-md-3">
+                        <label class="form-label">Position<span>*</span></label>
+                        <p>Manager</p>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <label class="form-label">Company<span>*</span></label>
+                        <p>Google</p>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <label class="form-label">From<span>*</span></label>
+                        <p>20-04-2018</p>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <label class="form-label">To<span>*</span></label>
+                        <p>30-08-2021</p>
+                    </div>
+ -->

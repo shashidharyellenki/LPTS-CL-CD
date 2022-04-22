@@ -1,0 +1,43 @@
+[
+    {
+        "FSD":["IT Workshop",
+             "Computer Science Principles and Programming",
+             "Introduction to Data Science",
+             "Algorithms and Data Structures in Java",
+             "Computer Systems",
+             "Full Stack Development"],
+        "DS":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Data Science"],
+        "AI":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Artificial Intellegence"],
+        "ML":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Machine Learning"],
+        "CyberSecurity":["IT Workshop",
+            "Computer Science Principles and Programming",
+            "Introduction to Data Science",
+            "Algorithms and Data Structures in Java",
+            "Computer Systems",
+            "Cyber Security"]
+
+
+        
+    },
+    
+    {
+        "Softskills":["LSRW","LSRW1","LSRW2","LSRW3","Professional Communication Skills"]
+    }
+]
+
+

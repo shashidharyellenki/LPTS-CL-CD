@@ -1,0 +1,175 @@
+[
+    {
+        "courseName":"IT Workshop",
+        "modules":["Virtual chalkboard","Evaluate input methods","Create open-source datasets","Automate repititive tasks","Online presence"] ,
+        "tasks":{
+            "Virtual chalkboard":["Project description","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Evaluate input methods":["Project description","Indian language typing","Prepare a report"],
+            "Create open-source datasets":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Automate repititive tasks":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Online presence":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
+    },
+    {
+        "courseName":"Computer Science Principles and Programming",
+        "modules":["Python code dissection","Python code writing","Battleships project"] ,
+        "tasks":{
+            "Python code dissection":["Project overview","GitHub & VS code setup","Python workspace","Code dissection","Code review","Data types, operators, variables","Function calls","Comparision operators and if conditions","Importing libraries"],
+            "Python code writing":["Introduction","Handling errors","Function definition","Function call stack"],
+            "Battleships project":["Introduction","Introduction to lists","2D lists","List methods","Data representation"]     
+                }
+    },
+    {
+        "courseName":"Introduction to Data Science",
+        "modules":["Project Ice Cream","Project Social Media Analytics","Project Language Modelling","Project Protein Sequencing","Online presence"] ,
+        "tasks":{
+            "Project Ice Cream":["Project description","Data collection, cleaning and parsing","Data analysis","Data formats","Working with data","Creating a model"],
+            "Project Social Media Analytics":["Project description","Installations","Learn pandas","Generate dataframes","Parse label","Find region"],
+            "Project Language Modelling":["Project description","Load words from text","Find corpus length","Build unigram vocubulary","Count unigrams"],
+            "Project Protein Sequencing":["Project description","Get the DNA data","Convert DNA to RNA","Make a codon dictionary","Convert RNA to proteins","Synthesize proteins"]
+
+                }
+    },
+    {
+        "courseName":"Algorithms and Data Structures in Java",
+        "modules":["Java code dissection & writing","Elementary sorting algorithms","Priority Queues","Trees","Graphs"] ,
+        "tasks":{
+            "Java code dissection & writing":["Project description","Setup group call","Share screen","Capture handwriting","Record video call","Sharing and collaborating on Files"],
+            "Elementary sorting algorithms":["Project description","Indian language typing","Prepare a report"],
+            "Priority Queues":["Project description","Setup workspace","Import data to the spread sheet","Merge data sheets and add new column","Clean the data"],
+            "Trees":["Project description","Ideas on solving the given problem","Setting up the workspace","Process rows that match 'featuring'"],
+            "Graphs":["Project description","Personal Branding","Visual communication design","LinkedIn"]
+                }
+    },
+    {
+        "courseName":"Computer Systems",
+        "modules":["Tiny Webserver","Static Content","Dynamic Content","Concurrency","Cache-proxy"] ,
+        "tasks":{
+            "Tiny Webserver":["Web server","HTTP"],
+            "Static Content":["Walking through files,Directories","Rendering static content"],
+            "Dynamic Content":["Process","Process Management","Process;ifecycle","Interprocess communication"],
+            "Concurrency":["Concurrency","Multiprocessing","Multi-Threading"],
+            "Cache-proxy":["Cachememory","Proxy"]
+                }
+    },
+    {
+        "courseName":"Full Stack Development",
+        "modules":["Web Frontend", "Backend","Databases","Continuous Integration & Continuous Delivery"] ,
+        "tasks":{
+            "Web Frontend":["HTML","css","Bootstrap","Javascript","ReactFramework","Progressive web Apps"],
+            "Backend":["Flask Framework","Data Security","Django","spring","Rails"],
+            "Databases":["Relational database","Document-Mongo","Redis","Algolia"],
+            "Continuous Integration & Continuous Delivery":["Clusters with Docker","Setting up GIT Actions","Testing frameworks","Monitoring apps"]
+                }
+    },
+
+
+    {
+        "courseName":"Data Science",
+        "modules":["Statistics","Data_manipulation","Databases","Data_vizualization"] ,
+        "tasks":{
+            "Statistics":["Descriptive statistics","Hypothesis testing","Regression analysis"],
+            "Data_manipulation":["Data manipulation with Python","Data manipulation with R","Scala"],
+            "Databases":["SQL","MongoDB"],
+            "Data_vizualization":["PowerBI","Tableaue"]
+                }
+    },
+
+
+    {
+        "courseName":"Artificial Intellegence",
+        "modules":["Data Fairness and Bias","AI Models & Limitation","Privacy and Convenience","Ethics in Action"] ,
+        "tasks":{
+            "Data Fairness and Bias":["Fairness and protections in machine learning","Building fair models","Human factors: minimizing bias in data"],
+            "AI Models & Limitation":["Algorithms","AI Models & Outcomes","Training and constraints","Ethical AI: Cause and Effect"],
+            "Privacy and Convenience":["Privacy and convenience vs big data","Protecting Privacy: Theories and Methods","Building Transparent Models"],
+            "Ethics in Action":["OpenAI: GPT-3 Analysis","Project 2 - Alleghany Screening Analysis","Project 3 - Game Theory Algorithm Design"]
+         }
+    },
+
+    {
+        "courseName":"Machine Learning",
+        "modules": ["Exploratory Data Analysis for Machine Learning","Supervised Machine Learning: Regression","Supervised Machine Learning: Classification","Unsupervised Machine Learning","Deep Learning and Reinforcement Learning","Specialized Models: Time Series and Survival Analysis"],
+        "tasks":{
+            "Exploratory Data Analysis for Machine Learning":["History of Machine Learning and Deep Learning","Applications","Machine Learning Workflow","Retrieving Data","Data Cleaning","Handling Missing Values and Outliers","Feature Engineering and Variable Transformation","Reading in Database Files","Exploratory Data Analysis","Estimation and Inference ","Hypothesis Testing","Correlation vs Causation"],
+            "Supervised Machine Learning: Regression":["Regression and Classification ","Introduction to Linear Regression","Training and Test Splits", "Cross Validation"," Polynomial Regression", "Bias Variance Trade off", "Regularization and Model Selection"," Ridge Regression","LASSO Regression", "Polynomial Features and Regularization "],  
+            "Supervised Machine Learning: Classification":["Logistic Regression","K Nearest Neighbors","Support Vector Machines","Decision Trees","Ensemble Models","Modeling Unbalanced Classes"],
+            "Unsupervised Machine Learning":["Introduction to Unsupervised Learning and K Means","Selecting a clustering algorithm" ,"Dimensionality Reduction"],   
+            "Deep Learning and Reinforcement Learning":["Introduction to Neural Networks","Neural Network Optimizers and Keras","Convolutional Neural Networks","Recurrent Neural Networks and Long-Short Term Memory Networks","Deep Learning with Autoencoders","Deep Learning Applications and Reinforcement Learning"],
+            "Specialized Models: Time Series and Survival Analysis":["Introduction to Time Series Analysis","Stationarity and Time Series Smoothing","ARMA and ARIMA Models","Deep Learning and Survival Analysis Forecasts"]
+                
+                
+                }
+    },
+
+    {
+        "courseName":"Cyber Security",
+        "modules":["Usable Security","Software Security","Cryptography","Hardware Security"] ,
+        "tasks":{
+            "Usable Security":["Fundamentals of Human-Computer Interaction","Design methodology & prototyping","Evaluation & testing","Strategies for Secure Interaction Design","Usable Authentication: authentication mechanisms, biometrics, two-factor authentication"," Usable Privacy: privacy settings, personal data sharing"],           
+            "Software Security":["Low-Level Security","Defending Against Low-Level Exploits","Web Security","Secure Software Development","Program Analysis"],
+            "Cryptography":["Introduction to Classical Cryptography","Computational Secrecy and Principles of Modern Cryptography","Private-Key Encryption","Message Authentication Codes"],
+            "Hardware Security":["Digital System Design: Basics and Vulnerabilities","Design Intellectual Property Protection","Physical Attacks and Modular Exponentiation","Side Channel Attacks and Countermeasures","Hardware Trojan Detection and Trusted IC Design"]
+                }
+
+    },
+
+    {
+        "courseName":"LSRW",
+        "modules":["Reading","Listening","Task"] ,
+        "tasks":{
+            "Reading":["Passage1","Quiz_1","Passage2","Quiz_2","Passage3","Quiz_3","Passage4","Quiz_4"],           
+            "Listening":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
+            "Task":["Writing_week1","Speaking_week1","Writing_week2","Speaking_week2","Writing_week3","Speaking_week3"]
+        }
+                
+    },
+
+
+    {
+        "courseName":"LSRW1",
+        "modules":["Reading_Level_2","Listening_2","Task"] ,
+        "tasks":{
+            "Reading_Level_2":["Passage1","Quiz_1","Passage2","Quiz_2","Passage3","Quiz_3","Passage4","Quiz_4"],           
+            "Listening_2":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
+            "Task":["Descriptive_eassy writing","Augmentative_eassy writing","Persuasive_eassy writing","Informative speech_speaking","Persuasive speech__speaking"]
+        }
+                
+    },
+
+    {
+        "courseName":"LSRW2",
+        "modules":["Reading_Level_3","Listening_3","Task"] ,
+        "tasks":{
+            "Reading_Level_3":["Passage1","Quiz_1","Passage2","Quiz_2","Passage3","Quiz_3","Passage4","Quiz_4"],           
+            "Listening_3":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
+            "Task":["Descriptive_eassy writing","Augmentative_eassy writing","Persuasive_eassy writing","Informative speech_speaking","Persuasive speech__speaking"]
+        }
+                
+    },
+
+
+    {
+        "courseName":"LSRW3",
+        "modules":["Reading_Level_4","Listening_4","Task"] ,
+        "tasks":{
+            "Reading_Level_4":["Passage_4.1","Quiz_4.1","Passage_4.2","Quiz_4.2","Passage_4.3","Quiz_3","Passage_4.4","Quiz_4.4"],           
+            "Listening_4":["Video_1","VQuiz_1","Video_2","VQuiz_2","Video_3","VQuiz_3","Video_4","VQuiz_4"],
+            "Task":["Descriptive_eassy writing","Augmentative_eassy writing","Persuasive_eassy writing","Informative speech_speaking","Persuasive speech__speaking"]
+        }
+                
+    },
+
+
+
+    {
+        "courseName":"Professional Communication Skills",
+        "modules":["Email writing","Effective Communication"] ,
+        "tasks":{
+            "Email writing":["Formal vs Informal email writing","Rules for email writing","Consise and clear email"],
+            "Effective Communication":["Active Listening","Awareness of Communication Styles","Persuasion" ]
+
+            }
+    }
+    
+]

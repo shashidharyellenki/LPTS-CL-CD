@@ -1,0 +1,207 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    /* background-color: #ffe9e3;   */
+    background-color: white;
+}
+
+.studentCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:4rem;
+    padding:1rem;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 1rem;   
+}
+.tpath {
+    position:relative;
+    height:auto;
+    width: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-top:3%;
+    padding:4%;
+    /* border:1px solid black; */
+}
+.tgraph {
+    position:relative;
+    height:500px;
+    width: 660px;
+    margin-top:2%;
+    align-items: center;
+    justify-content: center;
+    padding-top:5%;
+    overflow: hidden;
+    /* border:1px solid black; */
+}
+.legendDetails {
+    display: flex;
+    flex-wrap:wrap;
+    gap:0.5rem;
+    align-items:center;
+    justify-content:inline;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.studentCard .box{
+      position:relative;
+      height:460px;
+      width: 250px;
+      box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+      overflow: hidden;
+      align-items: center;
+      display: block;
+      justify-content: center;
+      border-radius: 0.5rem;
+
+}
+.studentCard .box:hover{
+    border-bottom: 7px solid #05004e;
+
+}
+.studentCard .box .imgbox{
+    width:100%;
+    height:50%;
+    /* margin-bottom: 1rem; */
+}
+.studentCard .box .imgbox img{
+    height:100%;
+    width:100%;
+}
+.studentCard .box .card-body{
+    text-align:center;
+    font-size: 17px;
+    line-height: 2rem;
+    /* font-weight: bold; */
+    margin:0;
+}
+
+.studentCard .box .card-body button{
+    position:static;
+    padding:0.5rem 1rem;
+    background: transparent;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007cb9;
+    color:#eee;
+    margin-top:15px;
+    border-radius: 0.5rem;
+    /* margin-top: 0.5rem; */
+    
+
+}
+/* .studnetCard .box .card-body button:hover{
+    color:#b98686;
+    background: #eee;
+    transition: 0.5s ease;
+
+} */
+
+
+/* .button {
+    border-radius: 5px;
+    font-size: 18px;
+} */
+
+ /* .box1{
+    text-align:center;
+    width:100%;
+    height:100%;
+    overflow-y: scroll;
+} */
+/* #overflow{
+    height:550px;
+} */
+/* .box1:last-child{
+    padding:0;
+    margin:0;
+    
+} */
+/* .box1 h4:nth-last-child(1){
+    margin:0;   
+} */
+/* .box1 h4 span{
+    color: green;
+    font-weight: bold;
+} */
+/* .box1 h4{
+    padding:0.7rem 0.1rem;
+    background-color: antiquewhite;
+    text-align: center;
+    border-left: 5px solid green;
+    cursor: pointer;
+
+} */
+/* .box1 h4:nth-child(3){
+    border-left: 5px solid red;
+
+} */
+/* .box1 h4:nth-child(5){
+    border-left: 5px solid orange;
+   
+    cursor: not-allowed;
+
+} */
+/* .box1 h4:nth-child(6){
+    border-left: 5px solid orange;
+    cursor: not-allowed;
+
+} */
+/* .box1 h4:nth-child(7){
+    border-left: 5px solid orange;
+    cursor: not-allowed;
+
+} */
+
+ /* ::-webkit-scrollbar{
+    width:0.3rem;
+    background-color:#455d7a;
+   
+} */
+/* ::-webkit-scrollbar-thumb{
+    background-color: #e3e3e3;
+    border-radius: 100vw;
+}  */
+
+/* .active{
+    display: none;
+} */
+
+/* ol li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: .5rem;
+} */
+
+/* #dot{
+    color:green;
+    font-size: 2rem;
+    align-items: center;
+    
+    display: flex;
+    margin-right: auto;
+} */
+
+/* h4:after{
+    content: '';
+    width:10px;
+    height:10px;
+    border-radius: 60%;
+    background-color: blue;
+    position: absolute;
+    float:right;
+
+}  */
