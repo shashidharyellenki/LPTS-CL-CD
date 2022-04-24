@@ -1,5 +1,5 @@
 const { it, expect } = require('@jest/globals');
-const sub = require('./function1');
+const sub = require('./index');
 
 it('testing sub function',()=>{
     expect(sub(5,3)).toBe(2);
