@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["sub","a","b","module","exports"],"mappings":";AAAA,IAAMA,EAAI,SAACC,EAAEC,GACFD,OAAAA,EAAEC,GAEbC,OAAOC,QAAQJ","file":"LPTS-CL-CD.619353be.js","sourceRoot":"..","sourcesContent":["const sub=(a,b)=>{\n    return a-b;\n}\nmodule.exports=sub"]}
