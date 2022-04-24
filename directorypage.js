@@ -40,7 +40,7 @@
       if(searchvalue.length === 0){
          display();
      }
-     const search = await fetch('./data.json');
+     const search = await fetch('./data.js');
      const data = await search.json();
     let matches = data.filter(matchdata=>{
          const regx= new RegExp(`${searchvalue}`,'gi');
