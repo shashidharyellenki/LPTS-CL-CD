@@ -33,7 +33,7 @@
         }, {
             "name":"Shresta",
             "email":"jenniferg@gmail.com",
-            "image":"../images/image2.jpg",
+            "image":"./images/image2.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning DS",
             "Reason":" I want to get good job",
             "course":"DS",
@@ -65,7 +65,7 @@
         }, {
             "name":"Kalyani",
             "email":"kalyani.m@gmail.com",
-            "image":"../images/image3.jpg",
+            "image":"./images/image3.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning AI",
             "Reason":" I want to get good job",
             "course":"AI",
@@ -94,7 +94,7 @@
         }, {
             "name":"Kavya",
             "email":"kavya.l@gmail.com",
-            "image":"../images/image4.jpg",
+            "image":"./images/image4.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning FSD",
             "Reason":" I want to get good job",
             "course":"FSD",
@@ -125,7 +125,7 @@
         }, {
             "name":"Sulochana",
             "email":"sulochana.y@gmail.com",
-            "image":"../images/image5.jfif",
+            "image":"./images/image5.jfif",
             "bio":"I have learnt javascript, bootstrap, html and current learning CyberSecurity",
             "Reason":" I want to get good job",
             "course":"CyberSecurity",
@@ -154,7 +154,7 @@
         }, {
             "name":"Maheswari",
             "email":"maheswar.b@gmail.com",
-            "image":"../images/image6.jpg",
+            "image":"./images/image6.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning AI",
             "Reason":" I want to get good job",
             "course":"AI",
@@ -183,7 +183,7 @@
         }, {
             "name":"Pallavi",
             "email":"pallavi.k@gmail.com",
-            "image":"../images/image7.jpg",
+            "image":"./images/image7.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning AI",
             "Reason":" I want to get good job",
             "course":"AI",
@@ -212,7 +212,7 @@
         }, {
             "name":"Alekhya",
             "email":"alekhyap@gmail.com",
-            "image":"../images/image8.jpg",
+            "image":"./images/image8.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning DS",
             "Reason":" I want to get good job",
             "course":"DS",
@@ -244,7 +244,7 @@
         },{
             "name":"Emma Watson",
             "email":"emmawatson@gmail.com",
-            "image":"../images/image9.jfif",
+            "image":"./images/image9.jfif",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning FSD",
             "Reason":" I want to get good job",
             "course":"FSD",
@@ -276,7 +276,7 @@
         },{
             "name":"Sharanya",
             "email":"sharanyam@gmail.com",
-            "image":"../images/images.jpg",
+            "image":"./images/images.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning DS",
             "Reason":" I want to get good job",
             "course":"DS",
@@ -308,7 +308,7 @@
         },{
             "name":"Pranavi",
             "email":"pranavia@gmail.com",
-            "image":"../images/image1.jpg",
+            "image":"./images/image1.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning AI",
             "Reason":" I want to get good job",
             "course":"AI",
@@ -337,7 +337,7 @@
         },{
             "name":"Sehba kousar",
             "email":"sehbakousarsheik@gmail.com",
-            "image":"../images/image4.jpg",
+            "image":"./images/image4.jpg",
             "bio":"I have learnt javascript, bootstrap, html and css and current learning FSD",
             "Reason":" I want to get good job",
             "course":"FSD",
