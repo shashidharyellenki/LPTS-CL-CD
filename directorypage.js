@@ -62,7 +62,7 @@
                   <h4 class="card-text">${args[i].name}</h4>
                   <h6 class="card-text">${args[i].email}</h6>
                   <h6 class="card-text"> ${args[i].bio}</h6>
-                  <button  onclick="progress('${args[i].name}')">View details</button>                  
+                  <a heref="./learners_progress_page.html" target="_blank"  onclick="progress('${args[i].name}')">View details</a>                  
                 </div>
          </div>`
      }
