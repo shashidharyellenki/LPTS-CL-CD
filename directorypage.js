@@ -61,7 +61,7 @@
      console.log(searchfield.value);
      filtering(searchfield.value);
  }); 
- filtersearch.addEventListener('click',()=>{
+ filtersearch.addEventListener('onchange',()=>{
      console.log(filtersearch.value)
      filtering(filtersearch.value);
  });
