@@ -29,25 +29,14 @@
      const data = await search.json();
     let matches = data.filter(matchdata=>{
          const regx= new RegExp(`${searchvalue}`,'gi');
-         return  matchdata.bio.match(regx);
+         return  matchdata.name.match(regx) || matchdata.bio.match(regx);
      })
+     console.log(matches)
      displayData(matches);
      
  };
 
- async function searchBar(searchvalue){
-      //when the searchfeild is empty we render all the cards from json file
-      if(searchvalue.length === 0){
-         display();
-     }
-     const search = await fetch('./data.js');
-     const data = await search.json();
-    let matches = data.filter(matchdata=>{
-         const regx= new RegExp(`${searchvalue}`,'gi');
-         return  matchdata.name.match(regx);
-     })
-     displayData(matches);
- }
+
      // helping funciton
    function displayData(args){
      let card = document.getElementById('students');
@@ -62,16 +51,17 @@
                   <h4 class="card-text">${args[i].name}</h4>
                   <h6 class="card-text">${args[i].email}</h6>
                   <h6 class="card-text"> ${args[i].bio}</h6>
-                  <a heref="./learners_progress_page.html" target="_blank"  onclick="progress('${args[i].name}')">View details</a>                  
+                <a id="viewDetails"  type="button" href="./learners_progress_page.html" target="_blank"  onclick="progress('${args[i].name}')"> <button>View details </button></a>          
                 </div>
          </div>`
      }
     }
 
  searchfield.addEventListener('input',()=>{
-     console.log(searchfield);
-     searchBar(searchfield.value);
+     console.log(searchfield.value);
+     filtering(searchfield.value);
  }); 
  filtersearch.addEventListener('click',()=>{
+     console.log(filtersearch.value)
      filtering(filtersearch.value);
  });
