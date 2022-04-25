@@ -3,8 +3,8 @@
 
 function progress(args){
     localStorage.setItem("selectedStudent",args);
-    location.href="./learners_progress_page.html";
-    target="_blank";
+    window.open("./learners_progress_page.html","_blank") ;
+
 }
 
 
